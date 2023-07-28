@@ -6,11 +6,17 @@
 
 # Ignore appsettings.json
 /ECO/ECO.GateWayAPI/appsettings.json
+/ECO/ECO.GateWayAPI/appsettings.Development.json
 /ECO/ECO.Service.Basket/appsettings.json
+/ECO/ECO.Service.Basket/appsettings.Development.json
 /ECO/ECO.Service.Identity/appsettings.json
+/ECO/ECO.Service.Identity/appsettings.Development.json
 /ECO/ECO.Service.Product/appsettings.json
-/ECO/ECO.Service.Order/appsettings.json
+/ECO/ECO.Service.Product/appsettings.Development.json
+/ECO/ECO.Sevice.Order/appsettings.json
+/ECO/ECO.Sevice.Order/appsettings.Development.json
 /ECO/ECO.Service.Inventory/appsettings.json
+/ECO/ECO.Service.Inventory/appsettings.Development.json
 
 
 # User-specific files

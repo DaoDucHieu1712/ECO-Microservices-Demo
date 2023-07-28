@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{56DA05DF-8A5E-4A76-949B-37ABFC6148E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECO.Service.Identity", "ECO.Service.Identity\ECO.Service.Identity.csproj", "{E219396E-814B-4662-90B1-F0C5D0EB6BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECO.Service.Identity", "ECO.Service.Identity\ECO.Service.Identity.csproj", "{E219396E-814B-4662-90B1-F0C5D0EB6BE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
