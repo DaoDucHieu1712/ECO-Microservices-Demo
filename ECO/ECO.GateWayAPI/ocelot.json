@@ -1,0 +1,69 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/ocelot/Category",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/api/Category",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "SwaggerKey": "product-swagger"
+    },
+    {
+      "UpstreamPathTemplate": "/ocelot/Weather",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "SwaggerKey": "weather-swagger"
+    },
+    {
+      "UpstreamPathTemplate": "/ocelot/Product",
+      "UpstreamHttpMethod": [ "Get", "Post"],
+      "DownstreamPathTemplate": "/api/Product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "SwaggerKey": "product-swagger"
+    }
+
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "product-swagger",
+      "Config": [
+        {
+          "Name": "Product API",
+          "Version": "v1",
+          "Url": "https://localhost:5003/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "weather-swagger",
+      "Config": [
+        {
+          "Name": "Weather API",
+          "Version": "v1",
+          "Url": "https://localhost:5001/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}
